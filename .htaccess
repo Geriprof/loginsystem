@@ -1,0 +1,5 @@
+RewriteCond %{REQUSET_FILANEM} !-f
+RewriteEngine on
+
+RewriteRule ^login login.php [NC]
+RewriteRule ^index index.php [NC]
